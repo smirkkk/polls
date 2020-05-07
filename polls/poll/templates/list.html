@@ -1,0 +1,6 @@
+<h2>투표</h2>
+<ul>
+    {% for publisher in object_list %}
+        <a href="/do/{{publisher.id}}">{{ publisher.text }}</a>
+    {% endfor %}
+</ul>
